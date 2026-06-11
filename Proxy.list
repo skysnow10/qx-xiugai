@@ -192,7 +192,6 @@ DOMAIN-SUFFIX,straitstimes.com
 DOMAIN-SUFFIX,streamable.com
 DOMAIN-SUFFIX,substack.com
 DOMAIN-SUFFIX,swissinfo.ch
-DOMAIN-SUFFIX,store.steampowered.com
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,tapatalk.com
 DOMAIN-SUFFIX,techspot.com
@@ -402,28 +401,35 @@ DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
 DOMAIN,github.global.ssl.fastly.net
+
 # > OpenAI
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
+
 # > Pinterest
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-KEYWORD,.pinterest.
+
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixivsketch.net
 DOMAIN-SUFFIX,pximg.net
+
 # > Reddit
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
+
 # > Reuters
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reutersmedia.net
+
 # > Steam
 DOMAIN-SUFFIX,steamcommunity.com
-# DOMAIN,store.steampowered.com
+DOMAIN-SUFFIX,steampowered.com
+
 # ---(Telegram)---
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,comments.app
@@ -456,9 +462,11 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 # ------
+
 # > The Economist
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,static-economist.com
+
 # > The New York Times
 DOMAIN-SUFFIX,newyorktimes.com
 DOMAIN-SUFFIX,nyt.com
@@ -469,6 +477,7 @@ DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,tmagazine.com
 DOMAIN,nytimes.map.fastly.net
+
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
@@ -484,6 +493,7 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
+
 # > xAI
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,periscope.tv
@@ -498,14 +508,17 @@ DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
+
 # > Yahoo
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yimg.com
 DOMAIN,search.yahoo.co.jp
+
 # > Yandex
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN,disk.yandex.com
+
 # > Z-Library
 DOMAIN-SUFFIX,articles.sk
 DOMAIN-SUFFIX,articles.sk
@@ -533,9 +546,11 @@ DOMAIN,wego.here.com
 # Alibaba
 DOMAIN,login.alibaba.com
 DOMAIN,merchant-rating.alibaba.com
+
 # > Alphabet
 DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
+
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
@@ -549,9 +564,11 @@ DOMAIN,apple-relay.apple.com // Apple Intelligence
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
+
 # > Mi
 DOMAIN,c.mi.com
 DOMAIN,new.c.mi.com
+
 # > Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
