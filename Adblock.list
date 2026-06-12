@@ -393,6 +393,13 @@ URL-REGEX,^https?:\/\/(rou\.video)\/(?!(.*(cdn-cgi|verify|auth|captch|(\.(js|css
 URL-REGEX,^https?:\/\/\w{0,3}(\.){0}91porny\.com\/(?!(.*(cdn-cgi|verify|auth\/|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*
 URL-REGEX,^https?:\/\/\w{0,3}(\.){0,1}91porn\.com\/(?!(.*(get_image|slider_verify|cdn-cgi|register|cookie|captcha|evercookie|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*
 
+#### YouTube
+URL-REGEX,(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+),
+URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad,reject-200
+URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads,reject-200
+URL-REGEX,^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking),reject-200
+URL-REGEX,^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext,reject-200
+
 #### xiaobaotv.net
 DOMAIN-SUFFIX,onerousethelpictures.com,reject
 DOMAIN-SUFFIX,exemptambientcream.com,reject
