@@ -298,6 +298,9 @@ DOMAIN-SUFFIX,haoyuntj.com,reject
 DOMAIN-SUFFIX,bizhixiang.cn,reject
 DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,reject
 
+#####  Twitter
+URL-REGEX,^https?:\/\/x\.com\/i\/api\/graphql\/[^\/]+\/(HomeTimeline|TweetDetail)
+
 ##### https://gimy.tv/ 剧迷tv  
 DOMAIN-SUFFIX,ads.superad.cc,reject
 
