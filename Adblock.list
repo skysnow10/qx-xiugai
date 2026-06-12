@@ -445,16 +445,34 @@ DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,reject
 DOMAIN-SUFFIX,unityads.unity3d.com,reject
 # --- (Alibaba) ---
 DOMAIN,tunion-api.m.taobao.com,reject
+
 # > YOUKU
 DOMAIN-SUFFIX,atm.youku.com,reject
 DOMAIN,ad.mobile.youku.com,reject
 DOMAIN,adx.op.cp18.ott.cibntv.net,reject
 DOMAIN,iyes.youku.com,reject
 DOMAIN,pl.cp31.ott.cibntv.net,reject
+
 # > AMap
 DOMAIN,optimus-ads.amap.com,reject
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com,reject
-# ------
+# > 高德地图_开屏请求@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/ws\/aos\/alimama\/splash_screen,reject-200
+# > 高德地图_首页底部信息流@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/v\d\/ai_rec\/,reject
+# > 高德地图_路线规划下方广告@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\?,reject
+# > 高德地图_Tip请求@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/ws\/boss\/order_web\/\w{8}_information,reject-200
+# > 高德地图_通用广告请求@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution,reject
+# > 高德地图_搜索框scene@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend,reject
+# > 高德地图_首页左上角gif@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif,reject
+# > 高德地图_左下天气@ddgksf2013
+URL-REGEX,^https?:\/\/.*\.amap\.com\/ws\/valueadded\/weather,reject
+
 # > Autohome
 DOMAIN,adproxy.autohome.com.cn,reject
 DOMAIN,rd.autohome.com.cn,reject
