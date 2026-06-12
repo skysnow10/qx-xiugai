@@ -775,3 +775,15 @@ DOMAIN,118.89.204.198,reject
 # > ZOL
 DOMAIN,apppv.zol.com.cn,reject
 DOMAIN,pvnapp.zol.com.cn,reject
+
+# 澳门赌彩类
+HOST-SUFFIX,xinpujing.com
+HOST-SUFFIX,xpjlux.com
+HOST-SUFFIX,venetian.com
+HOST-SUFFIX,macausands.com
+HOST-SUFFIX,sands.com
+HOST-SUFFIX,wynn.com
+HOST-SUFFIX,mg88.com
+HOST-SUFFIX,shturl.com
+HOST-SUFFIX,bbin.com
+HOST-SUFFIX,og88.com
