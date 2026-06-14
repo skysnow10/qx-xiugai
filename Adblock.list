@@ -15,11 +15,11 @@ DOMAIN-SUFFIX,capndr.com,reject
 DOMAIN-SUFFIX,ptelastaxo.com,reject
 
 ##### 搜索引擎
-URL-REGEX,^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word)
-URL-REGEX,https?:\/\/(www|m)\.baidu\.com(/$|\/\?ref.*)
-URL-REGEX,https?:\/\/(www|m)\.baidu\.com\/(from=|s\?)
-URL-REGEX,^https?:\/\/((www|cn)\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=))
-URL-REGEX,^https?:\/\/((www|cn)\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=))
+URL-REGEX,^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word),reject
+URL-REGEX,https?:\/\/(www|m)\.baidu\.com(/$|\/\?ref.*),reject
+URL-REGEX,https?:\/\/(www|m)\.baidu\.com\/(from=|s\?),reject
+URL-REGEX,^https?:\/\/((www|cn)\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=)),reject
+URL-REGEX,^https?:\/\/((www|cn)\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=)),reject
 
 ##### https://bi-girl.net/
 DOMAIN-SUFFIX,ad-nex.com,reject
