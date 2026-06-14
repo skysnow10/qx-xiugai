@@ -439,6 +439,15 @@ DOMAIN-SUFFIX,unityads.unity3d.com,reject
 # --- (Alibaba) ---
 DOMAIN,tunion-api.m.taobao.com,reject
 
+# 支付宝-支付成功页广告/推荐/优惠券（灯火平台）
+HOST-SUFFIX,e.alipay.com,reject
+HOST-SUFFIX,zfb-ad.com,reject
+
+# 支付宝-支付后推荐卡片/信息流
+HOST-SUFFIX,ads.alipay.com,reject
+HOST-SUFFIX,recommend.alipay.com,reject
+HOST-SUFFIX,card.alipay.com,reject
+
 # > YOUKU
 DOMAIN-SUFFIX,atm.youku.com,reject
 DOMAIN,ad.mobile.youku.com,reject
@@ -815,16 +824,16 @@ DOMAIN,apppv.zol.com.cn,reject
 DOMAIN,pvnapp.zol.com.cn,reject
 
 # 澳门赌彩类
-HOST-SUFFIX,xinpujing.com
-HOST-SUFFIX,xpjlux.com
-HOST-SUFFIX,venetian.com
-HOST-SUFFIX,macausands.com
-HOST-SUFFIX,sands.com
-HOST-SUFFIX,wynn.com
-HOST-SUFFIX,mg88.com
-HOST-SUFFIX,shturl.com
-HOST-SUFFIX,bbin.com
-HOST-SUFFIX,og88.com
+HOST-SUFFIX,xinpujing.com,reject
+HOST-SUFFIX,xpjlux.com,reject
+HOST-SUFFIX,venetian.com,reject
+HOST-SUFFIX,macausands.com,reject
+HOST-SUFFIX,sands.com,reject
+HOST-SUFFIX,wynn.com,reject
+HOST-SUFFIX,mg88.com,reject
+HOST-SUFFIX,shturl.com,reject
+HOST-SUFFIX,bbin.com,reject
+HOST-SUFFIX,og88.com,reject
 DOMAIN-SUFFIX,maizhenai.cn,Reject
 DOMAIN-SUFFIX,paomifen.cn,Reject
 DOMAIN-SUFFIX,songlaoban.cn,Reject
