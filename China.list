@@ -271,3 +271,8 @@ DOMAIN-SUFFIX,weibo.cn,DIRECT
 DOMAIN-SUFFIX,snssdk.com,DIRECT
 DOMAIN-SUFFIX,toutiao.com,DIRECT
 
+# > 牛马
+DOMAIN-SUFFIX,dp.cscec8b.com.cn,DIRECT
+DOMAIN-SUFFIX,iam.cscec.com,DIRECT
+DOMAIN-SUFFIX,iam.jc.yzw.cn,DIRECT
+DOMAIN-SUFFIX,cscec8b.21tb.com,DIRECT
