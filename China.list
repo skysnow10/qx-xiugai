@@ -57,7 +57,8 @@ HOST-SUFFIX,music.126.net,DIRECT
 HOST-SUFFIX,music.163.com,DIRECT
 HOST-SUFFIX,music.163.com.163jiasu.com,DIRECT
 HOST-KEYWORD,netease,DIRECT
-USER-AGENT,网易云音乐**,网易云音乐
+USER-AGENT,网易云音乐**,DIRECT
+
 IP-CIDR,1.255.62.0/24,no-resolve
 IP-CIDR,101.32.104.0/21,no-resolve
 IP-CIDR,101.32.118.0/23,no-resolve
@@ -75,10 +76,12 @@ IP-CIDR,185.188.34.0/24,no-resolve
 IP-CIDR,185.188.35.0/24,no-resolve
 IP-CIDR,203.205.238.0/23,no-resolve
 IP-CIDR,203.205.254.0/23,no-resolve
-IP-CIDR,2a0b:b580::/48,no-resolve
-IP-CIDR,2a0b:b581::/48,no-resolve
-IP-CIDR,2a0b:b582::/48,no-resolve
-IP-CIDR,2a0b:b583::/48,no-resolve
+
+IP-CIDR6,2a0b:b580::/48,DIRECT,no-resolve
+IP-CIDR6,2a0b:b581::/48,DIRECT,no-resolve
+IP-CIDR6,2a0b:b582::/48,DIRECT,no-resolve
+IP-CIDR6,2a0b:b583::/48,DIRECT,no-resolve
+
 IP-CIDR,101.71.154.241/32,DIRECT
 IP-CIDR,103.126.92.13/32,DIRECT
 IP-CIDR,103.126.92.132/31,DIRECT
