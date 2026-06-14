@@ -700,9 +700,9 @@ DOMAIN,saxs.sina.com.cn,reject
 DOMAIN,saxn.sina.com.cn,reject
 host-suffix, api.touch-moblie.com
 HOST-SUFFIX,api.touch-moblie.com
-URL-REGEX,^https?:\/\/api\.weibo\.cn\/\d\/cardlist\?v_f=.*Weibo_intl
-URL-REGEX,^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\?
-URL-REGEX,^https?:\/\/api\.weibo\.cn\/\d\/cardlist\?v_f=.*Weibo_intl
+URL-REGEX,^https?:\/\/api\.weibo\.cn\/\d\/cardlist\?v_f=.*Weibo_intl,reject
+URL-REGEX,^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\?,reject
+URL-REGEX,^https?:\/\/api\.weibo\.cn\/\d\/cardlist\?v_f=.*Weibo_intl,reject
 
 # > SOHU
 DOMAIN-SUFFIX,ad.sohu.com,reject
