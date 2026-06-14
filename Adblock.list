@@ -851,3 +851,7 @@ DOMAIN-SUFFIX,yeshoutuan.cn,Reject
 DOMAIN-SUFFIX,muxq8.cn,Reject
 DOMAIN-SUFFIX,huanshawang.cn,Reject
 DOMAIN-SUFFIX,v85968.cn,Reject
+
+# 闲鱼 开屏广告接口 拦截
+URL-REGEX,^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop.*splash\.ads,Reject
+URL-REGEX,^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop.idle.ad.expose,Reject
