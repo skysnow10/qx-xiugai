@@ -14,17 +14,6 @@ DOMAIN-SUFFIX,mnaspm.com,reject
 DOMAIN-SUFFIX,capndr.com,reject
 DOMAIN-SUFFIX,ptelastaxo.com,reject
 
-# 百度首页 & 带 ref/from= 广告链接
-HOST-WILDCARD,www.baidu.com/,REJECT
-HOST-WILDCARD,www.baidu.com/?ref*,REJECT
-HOST-WILDCARD,www.baidu.com/from=*,REJECT
-HOST-WILDCARD,www.baidu.com/s?*,REJECT
-
-# 必应搜索广告（不含 apps= 的搜索/广告链接）
-HOST-WILDCARD,*.bing.com/search?*,REJECT
-HOST-WILDCARD,*.bing.com/?sa=*,REJECT
-HOST-WILDCARD,*.bing.com/?FORM*,REJECT
-
 ##### https://bi-girl.net/
 DOMAIN-SUFFIX,ad-nex.com,reject
 DOMAIN-SUFFIX,waqool.com,reject
