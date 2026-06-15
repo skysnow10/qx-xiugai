@@ -291,9 +291,6 @@ DOMAIN-SUFFIX,haoyuntj.com,reject
 DOMAIN-SUFFIX,bizhixiang.cn,reject
 DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,reject
 
-#####  Twitter
-HOST-WILDCARD,x.com/i/api/graphql/*/HomeTimeline,REJECT
-HOST-WILDCARD,x.com/i/api/graphql/*/TweetDetail,REJECT
 
 ##### https://gimy.tv/ 剧迷tv  
 DOMAIN-SUFFIX,ads.superad.cc,reject
