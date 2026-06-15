@@ -790,3 +790,6 @@ DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,ddgksf2013.top
 DOMAIN-keyword,cylink
 DOMAIN-SUFFIX,ip.skk.moe
+
+# > Emby
+DOMAIN-SUFFIX,emby.nebula-media.org
