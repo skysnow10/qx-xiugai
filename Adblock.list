@@ -851,7 +851,3 @@ DOMAIN-SUFFIX,v85968.cn,Reject
 HOST-SUFFIX,adm.10jqka.com.cn,REJECT
 HOST,ne.gdsz.sinopec.com,REJECT
 HOST,gateway.star-charge.com,REJECT
-
-# 闲鱼 开屏广告接口 拦截
-HOST-WILDCARD,*(g-)?acs.m.goofish.com/gw/mtop*splash.ads,REJECT
-HOST-WILDCARD,*(g-)?acs.m.goofish.com/gw/mtop.idle.ad.expose*,REJEC
