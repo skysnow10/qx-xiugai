@@ -857,6 +857,9 @@ DOMAIN-SUFFIX,yeshoutuan.cn,Reject
 DOMAIN-SUFFIX,muxq8.cn,Reject
 DOMAIN-SUFFIX,huanshawang.cn,Reject
 DOMAIN-SUFFIX,v85968.cn,Reject
+URL-REGEX,^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend,REJECT
+URL-REGEX,^https:\/\/ne\.gdsz\.sinopec\.com\/gateway\/api\/omp\/mt\/appAdvertising\/queryAdvertisingByParams,REJECT
+URL-REGEX,^https:\/\/gateway\.star-charge\.com\/apph5\/xcxApiV2\/wechat\/advertisement\/list\/find,REJECT
 
 # 闲鱼 开屏广告接口 拦截
 URL-REGEX,^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop.*splash\.ads,Reject
