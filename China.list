@@ -43,6 +43,8 @@ USER-AGENT,eusoft_ting_en_iphone,DIRECT
 USER-AGENT,hearthstone*,DIRECT
 USER-AGENT,hide*,DIRECT
 USER-AGENT,ting_en,DIRECT
+HOST,ad12306.cn,DIRECT
+HOST,sdkapp.uve.weibo.com,DIRECT
 
 #网易云
 HOST,interface3.music.163.com.163jiasu.com,DIRECT
