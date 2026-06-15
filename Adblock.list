@@ -14,9 +14,6 @@ DOMAIN-SUFFIX,mnaspm.com,reject
 DOMAIN-SUFFIX,capndr.com,reject
 DOMAIN-SUFFIX,ptelastaxo.com,reject
 
-# 百度知道 特定路径
-HOST-WILDCARD,zhidao.baidu.com/(question|index|?fr|?word),REJECT
-
 # 百度首页 & 带 ref/from= 广告链接
 HOST-WILDCARD,www.baidu.com/,REJECT
 HOST-WILDCARD,www.baidu.com/?ref*,REJECT
