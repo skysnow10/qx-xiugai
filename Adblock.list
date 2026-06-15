@@ -389,9 +389,9 @@ DOMAIN-SUFFIX,ioacfu.com,reject
 
 #### 91porn.com
 DOMAIN-SUFFIX,killcovid2021.com,reject
-URL-REGEX,^https?:\/\/(rou\.video)\/(?!(.*(cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*
-URL-REGEX,^https?:\/\/\w{0,3}(\.){0}91porny\.com\/(?!(.*(cdn-cgi|verify|auth\/|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*
-URL-REGEX,^https?:\/\/\w{0,3}(\.){0,1}91porn\.com\/(?!(.*(get_image|slider_verify|cdn-cgi|register|cookie|captcha|evercookie|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*
+URL-REGEX,^https?:\/\/(rou\.video)\/(?!(.*(cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
+URL-REGEX,^https?:\/\/\w{0,3}(\.){0}91porny\.com\/(?!(.*(cdn-cgi|verify|auth\/|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
+URL-REGEX,^https?:\/\/\w{0,3}(\.){0,1}91porn\.com\/(?!(.*(get_image|slider_verify|cdn-cgi|register|cookie|captcha|evercookie|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
 
 #### xiaobaotv.net
 DOMAIN-SUFFIX,onerousethelpictures.com,reject
@@ -436,6 +436,7 @@ DOMAIN-SUFFIX,iadsdk.apple.com,reject
 DOMAIN-SUFFIX,ads.internal.unity3d.com,reject
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,reject
 DOMAIN-SUFFIX,unityads.unity3d.com,reject
+
 # --- (Alibaba) ---
 DOMAIN,tunion-api.m.taobao.com,reject
 
@@ -497,6 +498,7 @@ DOMAIN,mobads.baidu.com,reject
 DOMAIN,mobads-logs.baidu.com,reject
 DOMAIN,nadvideo2.baidu.com,reject
 DOMAIN,nsclick.baidu.com,reject
+
 # > iQIYI
 DOMAIN,t7z.cupid.iqiyi.com,reject
 DOMAIN,t7z.cupid.ptqy.gitv.tv,reject
@@ -504,19 +506,22 @@ DOMAIN,t7z.cupid.ptqy.gitv.tv,reject
 ## IP-CIDR,101.227.200.11/32,no-resolve
 ## IP-CIDR,101.227.200.28/32,no-resolve
 ## IP-CIDR,124.192.153.42/32,no-resolve
-# ------
+
 # > ByteDance
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,reject
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,reject
 DOMAIN,ad.toutiao.com,reject
 DOMAIN,dsp.toutiao.com,reject
 DOMAIN,pangolin.snssdk.com,reject
+
 # > baicizhan
 DOMAIN,advertise.baicizhan.com,reject
 DOMAIN,advertise.baicizhan.org,reject
+
 # > BitAuto
 DOMAIN,adx.yiche.com,reject
 DOMAIN,log.ycapp.yiche.com,reject
+
 # > Braze
 DOMAIN-SUFFIX,iad.appboy.com,reject
 DOMAIN-SUFFIX,iad-03.appboy.com,reject
@@ -531,6 +536,7 @@ DOMAIN-SUFFIX,iad-08.braze.com,reject
 # (C)
 # > CCTVVideo
 DOMAIN,adstore-index-1252524079.file.myqcloud.com,reject
+
 # > CNTV
 DOMAIN,galaxy.bjcathay.com,reject
 DOMAIN,mdrecv.app.cntvwb.cn,reject
