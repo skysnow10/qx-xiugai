@@ -14,12 +14,19 @@ DOMAIN-SUFFIX,mnaspm.com,reject
 DOMAIN-SUFFIX,capndr.com,reject
 DOMAIN-SUFFIX,ptelastaxo.com,reject
 
-##### 搜索引擎
-URL-REGEX,^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word),reject
-URL-REGEX,https?:\/\/(www|m)\.baidu\.com(/$|\/\?ref.*),reject
-URL-REGEX,https?:\/\/(www|m)\.baidu\.com\/(from=|s\?),reject
-URL-REGEX,^https?:\/\/((www|cn)\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=)),reject
-URL-REGEX,^https?:\/\/((www|cn)\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=)),reject
+# 百度知道 特定路径
+HOST-WILDCARD,zhidao.baidu.com/(question|index|?fr|?word),REJECT
+
+# 百度首页 & 带 ref/from= 广告链接
+HOST-WILDCARD,www.baidu.com/,REJECT
+HOST-WILDCARD,www.baidu.com/?ref*,REJECT
+HOST-WILDCARD,www.baidu.com/from=*,REJECT
+HOST-WILDCARD,www.baidu.com/s?*,REJECT
+
+# 必应搜索广告（不含 apps= 的搜索/广告链接）
+HOST-WILDCARD,*.bing.com/search?*,REJECT
+HOST-WILDCARD,*.bing.com/?sa=*,REJECT
+HOST-WILDCARD,*.bing.com/?FORM*,REJECT
 
 ##### https://bi-girl.net/
 DOMAIN-SUFFIX,ad-nex.com,reject
@@ -862,6 +869,5 @@ HOST,ne.gdsz.sinopec.com,REJECT
 HOST,gateway.star-charge.com,REJECT
 
 # 闲鱼 开屏广告接口 拦截
-HOST-SUFFIX,acs.m.goofish.com,REJECT
 HOST-WILDCARD,*(g-)?acs.m.goofish.com/gw/mtop*splash.ads,REJECT
 HOST-WILDCARD,*(g-)?acs.m.goofish.com/gw/mtop.idle.ad.expose*,REJEC
