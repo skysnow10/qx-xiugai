@@ -306,7 +306,8 @@ DOMAIN-SUFFIX,bizhixiang.cn,reject
 DOMAIN-SUFFIX,jspassport.ssl.qhimg.com,reject
 
 #####  Twitter
-URL-REGEX,^https?:\/\/x\.com\/i\/api\/graphql\/[^\/]+\/(HomeTimeline|TweetDetail)
+HOST-WILDCARD,x.com/i/api/graphql/*/HomeTimeline,REJECT
+HOST-WILDCARD,x.com/i/api/graphql/*/TweetDetail,REJECT
 
 ##### https://gimy.tv/ 剧迷tv  
 DOMAIN-SUFFIX,ads.superad.cc,reject
