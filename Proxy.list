@@ -724,6 +724,7 @@ DOMAIN-SUFFIX,go-to-library.sk
 DOMAIN-SUFFIX,library-access.sk
 DOMAIN-SUFFIX,singlelogin.rs
 DOMAIN-SUFFIX,z-library.sk
+DOMAIN-SUFFIX,zh.zlib.li
 
 # (Region-Restricted Access Denied)
 DOMAIN-SUFFIX,cnbeta.com.tw
