@@ -992,11 +992,6 @@ http://ad.myfriday.cn/d/json/1.1 url reject
 ^https?://.+.googleapis.com/adsmeasurement url reject-img
 ^https?://pagead2.googlesyndication.com/pagead/ url reject-img
 
-# > 挂号网（微医）
-# hostname = kano.guahao.cn, app.wy.guahao.com
-^https?://kano.guahao.cn/[a-zA-Z0-9]{12} url reject-200
-^https?://kano.guahao.cn/.+??resize=d{3}-d{4} url reject-img
-^https?://app.wy.guahao.com/json/white/dayquestion/getpopad url reject
 
 # > 国美电器
 # hostname = prom.mobile.gome.com.cn
