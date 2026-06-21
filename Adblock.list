@@ -167,6 +167,20 @@ DOMAIN-KEYWORD,asewlfjqwlflkew,reject
 DOMAIN-SUFFIX,tyrantdb.com,reject
 DOMAIN-SUFFIX,adserve.work,reject
 
+# > 爆米花
+host-suffix, a.baomihua.com, reject
+host-suffix, djs.baomihua.com, reject
+host-suffix, resource.baomihua.com, reject
+
+# > 懂车帝
+host-keyword, p3-pack.byteimg.com, reject
+host-keyword, p6-pack.byteimg.com, reject
+
+# > 斗鱼直播
+host-suffix, wan.douyu.com, reject
+host-suffix, g.wan.douyu.com, reject
+host-suffix, dotcounter.douyutv.com, reject
+
 ##### nfmovies.com 奈菲影视  
 DOMAIN-KEYWORD,brushshopy,reject
 DOMAIN-KEYWORD,onenews,reject
@@ -550,6 +564,13 @@ DOMAIN,exp.360in.com,reject
 # > Douban
 # AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29)),reject
 
+# > 饿了么
+host-suffix, app-monitor.ele.me, reject
+host-suffix, client-api.ele.me, reject
+host-suffix, grand.ele.me, reject
+host-suffix, mobile-pubt.ele.me, reject
+host-suffix, newton-api.ele.me, reject
+
 # (G)
 # > Google
 DOMAIN-SUFFIX,doubleclick.net,reject
@@ -577,6 +598,15 @@ DOMAIN,adeng.hpplay.cn,reject
 DOMAIN,pin.hpplay.cn,reject
 DOMAIN,rp.hpplay.cn,reject
 DOMAIN,rpt.hpplay.cn,reject
+
+# > 虎牙直播
+host, pp-cdnfile2pcdn.msstatic.com, reject
+host, livewebbs2pcdn.msstatic.com, reject
+host, huyafile.msstatic.com, reject
+host, livewebbs2.msstatic.com, reject
+host, business.msstatic.com, reject
+host-suffix, v1d.szbdyd.com, reject
+host-suffix, 3dm.huya.com, reject
 
 # (J)
 # >jxedt
@@ -631,6 +661,32 @@ DOMAIN,ggmk.miguvideo.com,reject
 DOMAIN,ggv.cmvideo.cn,reject
 DOMAIN,ggx.cmvideo.cn,reject
 DOMAIN,ggx03.miguvideo.com,reject
+# > 美团
+host-suffix, meituan.xn, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, wmlog.meituan.com, reject
+host-suffix, ad.e.waimai.sankuai.com, reject
+host-suffix, mads.meituan.com, reject
+host-suffix, dreport.meituan.net, reject
+host-suffix, d.meituan.net, reject
+# > 墨迹天气
+host-KEYWORD,me.api.moji.com, reject
+host-KEYWORD,android.bugly.qq.com, reject
+host-KEYWORD,av1.xdrig.com, reject
+host-KEYWORD,adash.man.aliyuncs.com, reject
+host, ad.api.moji.com, reject
+host, adlaunch.moji.com, reject
+host, ads.mojicdn.com, reject
+host, v1.log.moji.com, reject
+host-suffix, cdn.moji.com, reject
+host-suffix, fds.api.moji.com, reject
+host-suffix, app.moji001.com, reject
+host-suffix, ugc.moji001.com, reject
+host-suffix, cdn.moji002.com, reject
+host-suffix, cdn2.moji002.com, reject
 
 # (N)
 # > NetEase
@@ -684,6 +740,39 @@ DOMAIN,ad-cdn.qingting.fm,reject
 # > OPPO
 DOMAIN-SUFFIX,ads.oppomobile.com,reject
 DOMAIN,adsfs.oppomobile.com,reject
+# > QQ音乐
+host, adstats.tencentmusic.com, reject
+host, ad.tencentmusic.com, reject
+host, adcdn.tencentmusic.com, reject
+host, adcdn6.tencentmusic.com, reject
+host, adexpo.tencentmusic.com, reject
+host, adclick.tencentmusic.com, reject
+host, otheve.beacon.qq.com, reject
+host, monitor.music.qq.com, reject
+host, stat.y.qq.com, reject
+host, tmead.y.qq.com, reject
+host, oth.str.mdt.qq.com, reject
+host, h.trace.qq.com, reject
+host, sdk.e.qq.com, reject
+host, p.l.qq.com, reject
+host, us.l.qq.com, reject
+host, tangram.e.qq.com, reject
+host, tmeadbak.y.qq.com, reject
+host-suffix, imtmp.net, reject
+host, tmeadcomm.y.qq.com, reject
+host, ad.tencentmusic.com, reject
+host, adstats.tencentmusic.com, reject
+host, tmead.y.qq.com, reject
+host-suffix, rqd.qq.com, reject
+host-suffix, wup.imtt.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, android.rqd.qq.com, reject
+host-suffix, e.qq.com, reject
+host-suffix, beacon.qq.com, reject
+host-suffix, v.gdt.qq.com, reject
+host, amsweb-cdn-gz-1258344696.file.myqcloud.com, reject
+host, wallpaper-1258344696.file.myqcloud.com, reject
+host, xs.gdt.qq.com, reject
 
 # (S)
 # > Sina
@@ -714,6 +803,17 @@ DOMAIN,adsapi.snapchat.com,reject
 DOMAIN-SUFFIX,hoisin.coocaa.com,reject
 DOMAIN-SUFFIX,hoisin.coocaatv.com,reject
 DOMAIN,data-hoisin.coocaa.com,reject
+
+# > Soul
+host, soul-ad.soulapp.cn, reject
+host, ad-r.soulapp.cn, reject
+host, ad-reward.soulapp.cn, reject
+host-suffix, cdn.soulapp.cn, reject
+IP-CIDR, 47.56.131.76/32, reject
+IP-CIDR, 47.97.215.55/32, reject
+IP-CIDR, 47.99.42.29/32, reject
+IP-CIDR, 120.27.235.201/32, reject
+IP-CIDR, 121.196.197.147/32, reject
 
 # (T)
 # --- (Tencent) ---
@@ -758,6 +858,44 @@ DOMAIN,imgadpai.thepaper.cn,reject
 # > Thunder
 DOMAIN,adsp.xunlei.com,reject
 DOMAIN,etl.xlmc.sandai.net,reject
+# > 淘宝
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+# host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, dsp.simba.taobao.com, reject
+host-suffix, fav.simba.taobao.com, reject
+host-suffix, m.simba.taobao.com, reject
+host-suffix, mclick.simba.taobao.com, reject
+host-suffix, re.taobao.com, reject
+host-suffix, redirect.simba.taobao.com, reject
+host-suffix, simba.m.taobao.com, reject
+host-suffix, srd.simba.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, textlink.simba.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adash-c.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, tns.simba.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
+host-suffix, click.simba.taobao.com, reject
+host-suffix, click.tz.simba.taobao.com, reject
+host-suffix, stat.simba.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
+
+# > 途虎养车
+host, analytics.tuhu.com, reject
+host, ta.tuhu.cn, reject
 
 # (V)
 # > VariFlight
