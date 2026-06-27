@@ -145,6 +145,20 @@ DOMAIN-SUFFIX,ccbseoul.com,DIRECT
 DOMAIN-SUFFIX,ccbtrust.com.cn,DIRECT
 DOMAIN-SUFFIX,ccbxt.com,DIRECT
 
+# > BOCOM 其他银行
+DOMAIN-SUFFIX,pbc.gov.cn,DIRECT
+DOMAIN-SUFFIX,cdb.com.cn,DIRECT
+DOMAIN-SUFFIX,eximbank.gov.cn,DIRECT
+DOMAIN-SUFFIX,adbc.com.cn,DIRECT
+DOMAIN-SUFFIX,icbc.com.cn,DIRECT   
+DOMAIN-SUFFIX,abchina.com.cn,DIRECT  
+DOMAIN-SUFFIX,boc.cn,DIRECT       
+DOMAIN-SUFFIX,ccb.com,DIRECT  
+DOMAIN-SUFFIX,bankcomm.com,DIRECT
+DOMAIN-SUFFIX,psbc.com,DIRECT  
+DOMAIN-SUFFIX,jsbchina.cn,DIRECT
+DOMAIN-SUFFIX,bosc.cn,DIRECT
+
 # > google
 DOMAIN-SUFFIX,blog.google,DIRECT
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
