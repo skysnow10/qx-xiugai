@@ -268,6 +268,8 @@ DOMAIN-SUFFIX,wx.gtimg.com,DIRECT
 DOMAIN-SUFFIX,wx.qq.com,DIRECT
 DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
 DOMAIN-SUFFIX,wxs.qq.com,DIRECT
+
+# > we chat 微信小程序
 DOMAIN-SUFFIX,15261029.snfox.com,DIRECT
 
 
