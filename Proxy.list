@@ -795,4 +795,6 @@ DOMAIN-SUFFIX,ip.skk.moe
 
 # > Emby
 DOMAIN-SUFFIX,emby.nebula-media.org
+DOMAIN-SUFFIX,wiki.nebula-media.org
+DOMAIN-SUFFIX,nebula-media.org
 DOMAIN-SUFFIX,link01.okemby.org
