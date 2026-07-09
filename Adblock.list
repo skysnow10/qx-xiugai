@@ -392,12 +392,6 @@ DOMAIN-SUFFIX,purpleads.io,reject
 #### cn1.91short.com
 DOMAIN-SUFFIX,ioacfu.com,reject
 
-#### 91porn.com
-DOMAIN-SUFFIX,killcovid2021.com,reject
-URL-REGEX,^https?:\/\/(rou\.video)\/(?!(.*(cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
-URL-REGEX,^https?:\/\/\w{0,3}(\.){0}91porny\.com\/(?!(.*(cdn-cgi|verify|auth\/|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
-URL-REGEX,^https?:\/\/\w{0,3}(\.){0,1}91porn\.com\/(?!(.*(get_image|slider_verify|cdn-cgi|register|cookie|captcha|evercookie|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
-
 #### xiaobaotv.net
 DOMAIN-SUFFIX,onerousethelpictures.com,reject
 DOMAIN-SUFFIX,exemptambientcream.com,reject
