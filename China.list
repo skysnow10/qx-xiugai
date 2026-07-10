@@ -292,6 +292,11 @@ DOMAIN-SUFFIX,weibo.cn,DIRECT
 DOMAIN-SUFFIX,snssdk.com,DIRECT
 DOMAIN-SUFFIX,toutiao.com,DIRECT
 
+# >小红书
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xiaohongshu.com
+
 # > 网鱼
 DOMAIN-SUFFIX,wywk.cn,DIRECT
 
