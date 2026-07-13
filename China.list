@@ -303,6 +303,9 @@ DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
 
+# >沃尔玛
+DOMAIN-SUFFIX,walmartmobile.cn
+
 # >豆瓣
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,douban.fm
