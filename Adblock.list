@@ -19,6 +19,8 @@ DOMAIN-SUFFIX,ad-nex.com,reject
 DOMAIN-SUFFIX,waqool.com,reject
 DOMAIN-SUFFIX,img.ad-nex.com,reject
 DOMAIN-SUFFIX,js.waqool.com,reject
+DOMAIN-SUFFIX,mavrtracktor.com
+DOMAIN-SUFFIX,adtng.com
 
 ##### www.dmmiku.com
 DOMAIN-SUFFIX,3adtjg.com,reject
