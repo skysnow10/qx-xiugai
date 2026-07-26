@@ -320,5 +320,8 @@ DOMAIN-SUFFIX,iam.jc.yzw.cn,DIRECT
 DOMAIN-SUFFIX,cscec8b.21tb.com,DIRECT
 DOMAIN-SUFFIX,cscec.com,DIRECT
 
+# > 大众点评
+DOMAIN-SUFFIX,dianping.com,DIRECT
+
 # > 方糖
 DOMAIN-SUFFIX,sct.ftqq.com,DIRECT
