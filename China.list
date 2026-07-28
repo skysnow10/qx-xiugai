@@ -323,5 +323,8 @@ DOMAIN-SUFFIX,cscec.com,DIRECT
 # > 大众点评
 DOMAIN-SUFFIX,dianping.com,DIRECT
 
+# > 丰田
+DOMAIN-SUFFIX,ftms.com.cn,DIRECT
+
 # > 方糖
 DOMAIN-SUFFIX,sct.ftqq.com,DIRECT
