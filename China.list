@@ -331,3 +331,24 @@ DOMAIN-SUFFIX,ftms.com.cn,DIRECT
 
 # > 方糖
 DOMAIN-SUFFIX,sct.ftqq.com,DIRECT
+
+# > 阿里/夸克/UC
+HOST,ynuf.aliapp.org,PanVod
+HOST-SUFFIX,aliyun.com,PanVod
+HOST-SUFFIX,alipan.com,PanVod
+HOST-SUFFIX,alicdn.com,PanVod
+HOST-SUFFIX,aliyundrive.com,PanVod
+HOST-SUFFIX,aliyundrive.net,PanVod
+HOST-SUFFIX,alibaba.com,PanVod
+HOST-SUFFIX,quark.cn,PanVod
+HOST-SUFFIX,uc.cn,PanVod
+HOST-SUFFIX,taobao.com,PanVod
+HOST-SUFFIX,aliyuncs.com,PanVod
+
+# > 百度
+HOST,himg.bdimg.com,PanVod
+HOST-SUFFIX,baidu.com,PanVod
+HOST-SUFFIX,bcebos.com,PanVod
+HOST-SUFFIX,bdstatic.com,PanVod
+HOST-SUFFIX,baidupcs.com,PanVod
+
