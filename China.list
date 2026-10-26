@@ -377,3 +377,5 @@ HOST-SUFFIX,bcebos.com,PanVod
 HOST-SUFFIX,bdstatic.com,PanVod
 HOST-SUFFIX,baidupcs.com,PanVod
 
+# > readest
+DOMAIN-SUFFIX,readest.com,DIRECT
