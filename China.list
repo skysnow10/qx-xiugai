@@ -379,3 +379,6 @@ HOST-SUFFIX,baidupcs.com,PanVod
 
 # > readest
 DOMAIN-SUFFIX,readest.com,DIRECT
+
+# > mycomic
+DOMAIN-SUFFIX,mycomic.com,DIRECT
