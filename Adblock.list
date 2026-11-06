@@ -893,6 +893,13 @@ host-suffix, adashbc.m.taobao.com, reject
 host, analytics.tuhu.com, reject
 host, ta.tuhu.cn, reject
 
+# > 腾讯视频
+DOMAIN,ad.tencentvideo.com,REJECT
+DOMAIN,adstats.tencentvideo.com,REJECT
+DOMAIN,info6.video.qq.com,REJECT
+DOMAIN-SUFFIX,gdtimg.com,REJECT
+DOMAIN-SUFFIX,ugdtimg.com,REJECT
+
 # (V)
 # > VariFlight
 DOMAIN,adv-adlog.variflight.com,reject
