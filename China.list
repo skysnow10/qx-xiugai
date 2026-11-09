@@ -380,5 +380,9 @@ HOST-SUFFIX,baidupcs.com,PanVod
 # > readest
 DOMAIN-SUFFIX,readest.com,DIRECT
 
+# > 小宇宙
+DOMAIN-SUFFIX,xiaoyuzhoufm.com,DIRECT
+DOMAIN-SUFFIX,xyzcdn.net,DIRECT
+
 # > mycomic
 DOMAIN-SUFFIX,mycomic.com,DIRECT
