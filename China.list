@@ -354,8 +354,7 @@ DOMAIN-SUFFIX,dianping.com,DIRECT
 # > 丰田
 DOMAIN-SUFFIX,ftms.com.cn,DIRECT
 
-# > 方糖
-DOMAIN-SUFFIX,sct.ftqq.com,DIRECT
+
 
 # > 阿里/夸克/UC
 HOST,ynuf.aliapp.org,PanVod
