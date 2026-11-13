@@ -1325,3 +1325,13 @@ HOST-SUFFIX,gaode.com
 HOST-SUFFIX,logs.amap.com
 HOST-SUFFIX,optimus-ads.amap.com
 HOST-SUFFIX,v6-adashx.ut.amap.com
+
+# >腾讯游戏
+DOMAIN-SUFFIX,lol.qq.com,DIRECT
+DOMAIN-SUFFIX,game.gtimg.cn,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,riotgames.com,DIRECT
+DOMAIN-SUFFIX,riotcdn.net,DIRECT
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN-SUFFIX,wr.pvp.net
