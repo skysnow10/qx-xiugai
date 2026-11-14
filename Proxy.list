@@ -396,6 +396,8 @@ DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,facebook.com
 DOMAIN-KEYWORD,.facebook.
 
 # > Microsoft
