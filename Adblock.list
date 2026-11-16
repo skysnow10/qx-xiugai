@@ -408,14 +408,6 @@ DOMAIN-SUFFIX,2xmzazd.cn,reject
 DOMAIN-SUFFIX,2qpqwkx.cn,reject
 DOMAIN-SUFFIX,server.mch3.com,reject
 
-#### ddrk.me
-URL-REGEX,^https?:\/\/(ddys|ddrk|ddys2)\.\w{0,3}\/(?!(.*(cdn-cgi|verify|auth|captch|getvddr|\=json|\.))).*,reject
-
-####  www.tvn.cc
-URL-REGEX,^https?:\/\/(www|wap|m)\.tvn\.cc\/(?!(.*(cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
-
-####  missav
-URL-REGEX,^https?:\/\/missav\.(ws|live|com|ai)\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).*,reject
 
 #### Guard Advertising.list 神机规则
 ## 参阅 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list
@@ -527,14 +519,17 @@ DOMAIN,galaxy.bjcathay.com,reject
 DOMAIN,mdrecv.app.cntvwb.cn,reject
 DOMAIN,sdapprecv.app.cntvwb.cn,reject
 DOMAIN,vdapprecv.app.cntvwb.cn,reject
+
 # > ChinaTelecom
 DOMAIN,ad.21cn.com,reject
 DOMAIN,ad.k.21cn.com,reject
 DOMAIN,admarket.21cn.com,reject
 DOMAIN,adshows.21cn.com,reject
+
 # > Chelaile
 DOMAIN,atrace.chelaile.net.cn,reject
 DOMAIN,logs.chelaile.net.cn,reject
+
 # > Camera360
 DOMAIN,dispatcher.360in.com,reject
 DOMAIN,ad.360in.com,reject
@@ -566,10 +561,12 @@ DOMAIN-SUFFIX,da.mgtv.com,reject
 DOMAIN-SUFFIX,da.hunantv.com,reject
 DOMAIN-SUFFIX,log.hunantv.com,reject
 DOMAIN-SUFFIX,v2.hunantv.com,reject
+
 # > Hupu
 DOMAIN,adx.hupu.com,reject
 DOMAIN,adx-api.hupu.com,reject
 DOMAIN,goblin.hupu.com,reject
+
 # > happycast
 DOMAIN,ad.hpplay.cn,reject
 DOMAIN,adc.hpplay.cn,reject
@@ -604,6 +601,7 @@ DOMAIN,minfo.wps.cn,reject
 DOMAIN,mobad.ijinshan.com,reject
 DOMAIN,ups.ksmobile.net,reject
 DOMAIN,ws.ksmobile.net,reject
+
 # > Kuaishou
 DOMAIN-SUFFIX,e.kuaishou.com,reject
 DOMAIN,js-ad.a.yximgs.com,reject
@@ -628,11 +626,13 @@ DOMAIN-SUFFIX,ads2.msn.com,reject
 DOMAIN-SUFFIX,bingads.microsoft.com,reject
 DOMAIN-SUFFIX,rads.msn.com,reject
 DOMAIN,mobileads.msn.com,reject
+
 # > MojiWeather
 DOMAIN,ad.api.moji.com,reject
 DOMAIN,adlaunch.moji.com,reject
 DOMAIN,ads.mojicdn.com,reject
 DOMAIN,v1.log.moji.com,reject
+
 # > MiguVideo
 DOMAIN-SUFFIX,ad.cmvideo.cn,reject
 DOMAIN,ggc.cmvideo.cn,reject
@@ -641,6 +641,7 @@ DOMAIN,ggmk.miguvideo.com,reject
 DOMAIN,ggv.cmvideo.cn,reject
 DOMAIN,ggx.cmvideo.cn,reject
 DOMAIN,ggx03.miguvideo.com,reject
+
 # > 美团
 host-suffix, meituan.xn, reject
 host-suffix, meituan.yoga, reject
@@ -652,6 +653,7 @@ host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
+
 # > 墨迹天气
 host-KEYWORD,me.api.moji.com, reject
 host-KEYWORD,android.bugly.qq.com, reject
