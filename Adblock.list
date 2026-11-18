@@ -236,6 +236,10 @@ DOMAIN-SUFFIX,moatads.com,reject
 DOMAIN-SUFFIX,juicyads.in,reject
 DOMAIN-SUFFIX,dtscout.com,reject
 
+##### caixin 
+host, dolphin.caixin.com, reject
+host, gg.caixin.com, reject
+
 ##### dilili.tv  
 DOMAIN-SUFFIX,51.la,reject
 DOMAIN-SUFFIX,51daeka.com,reject
