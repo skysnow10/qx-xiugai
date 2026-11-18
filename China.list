@@ -127,6 +127,32 @@ DOMAIN-SUFFIX,pay.95559.com.cn,DIRECT
 DOMAIN-SUFFIX,pbank.bankcomm.com,DIRECT
 DOMAIN-SUFFIX,ebank.95559.com.cn,DIRECT
 
+# > 财新
+DOMAIN-SUFFIX,caing.cn
+DOMAIN-SUFFIX,caing.com
+DOMAIN-SUFFIX,caixin.com
+DOMAIN-SUFFIX,caixinmedia.cn
+DOMAIN-SUFFIX,caixinmedia.com
+DOMAIN-SUFFIX,caixinmedia.com.cn
+DOMAIN-SUFFIX,caixinonline.com
+DOMAIN-SUFFIX,healthpoint.cn
+DOMAIN-SUFFIX,healthpoint.com.cn
+DOMAIN-SUFFIX,icaing.cn
+DOMAIN-SUFFIX,jianhangcaifu.com
+DOMAIN-SUFFIX,lifetmt.cn
+DOMAIN-SUFFIX,lifetmt.com
+DOMAIN-SUFFIX,lifetmt.com.cn
+DOMAIN-SUFFIX,lifetmt.net
+DOMAIN-SUFFIX,lifetmt.org
+DOMAIN-SUFFIX,weinews.cn
+DOMAIN-SUFFIX,weinews.com.cn
+DOMAIN-SUFFIX,whyenjoy.com
+DOMAIN-SUFFIX,whyenjoy.com.cn
+DOMAIN-SUFFIX,wusuobuneng.cn
+DOMAIN-SUFFIX,wusuobuneng.com
+DOMAIN-SUFFIX,wusuobuneng.com.cn
+DOMAIN-SUFFIX,wusuobuneng.org
+
 # > CCB 建设银行
 DOMAIN-SUFFIX,ccb-life.com.cn,DIRECT
 DOMAIN-SUFFIX,ccb.cn,DIRECT
