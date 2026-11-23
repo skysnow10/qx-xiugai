@@ -360,6 +360,7 @@ HOST-SUFFIX,toutiao.com,DIRECT
 HOST-SUFFIX,xhscdn.com
 HOST-SUFFIX,xhscdn.net
 HOST-SUFFIX,xiaohongshu.com
+host, sdkapp.uve.weibo.com,DIRECT
 
 # >拼多多
 HOST-SUFFIX,pddpic.com
