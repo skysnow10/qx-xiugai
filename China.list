@@ -218,6 +218,9 @@ HOST-SUFFIX,psbc.com,DIRECT
 HOST-SUFFIX,jsbchina.cn,DIRECT
 HOST-SUFFIX,bosc.cn,DIRECT
 
+# > EMBY
+HOST-SUFFIX,ccemby.eu.org,DIRECT
+
 # > google
 HOST-SUFFIX,blog.google,DIRECT
 HOST-SUFFIX,googletraveladservices.com,DIRECT
