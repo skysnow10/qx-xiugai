@@ -1367,6 +1367,9 @@ HOST-SUFFIX,logs.amap.com
 HOST-SUFFIX,optimus-ads.amap.com
 HOST-SUFFIX,v6-adashx.ut.amap.com
 
+# >贝壳
+HOST-SUFFIX,map.ke.com
+
 # >腾讯游戏
 DOMAIN-SUFFIX,lol.qq.com,DIRECT
 DOMAIN-SUFFIX,game.gtimg.cn,DIRECT
