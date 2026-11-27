@@ -328,6 +328,8 @@ HOST-SUFFIX,wx.gtimg.com,DIRECT
 HOST-SUFFIX,wx.qq.com,DIRECT
 HOST-SUFFIX,wxapp.tc.qq.com,DIRECT
 HOST-SUFFIX,wxs.qq.com,DIRECT
+HOST-SUFFIX,wxwater.com.cn,DIRECT
+
 
 # > we chat 微信小程序
 HOST-SUFFIX,15261029.snfox.com,DIRECT
